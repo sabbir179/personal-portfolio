@@ -1,0 +1,39 @@
+.experience{
+    background: #212227;
+    padding: 80px 0;
+    color: #fff;
+    /* width: 33.33333333333333%; */
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #ff4a57;
+    font-size: 16px;
+  }
+
+  .mainHeader {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+ 
+  .commonBorder {
+    background: #ff4a57;
+    height: 3px;
+    width: 100px;
+    margin: 20px auto;
+  }
+
+  .exp-detail{
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  #tabs{
+      background-color: #1f2235;
+      color: #fff;
+      margin-left: 90px;
+  }
