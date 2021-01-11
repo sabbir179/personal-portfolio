@@ -1,8 +1,6 @@
 import React from 'react';
 import {
     FaFacebookF,
-    FaInstagram,
-    FaPlay,
     FaFlickr,
     FaLinkedinIn,
     FaGithub,
@@ -56,7 +54,7 @@ const Header = () => {
                 <h1>{state.title}</h1>
                 <p>{state.text}</p>
                 <div className="header__buttons">
-                  <a target="_blank"  href="https://drive.google.com/file/d/1f2hiDera6y-1r5U4Y61hRYzSogEUpeUX/view?usp=sharing"  className="btn btn-outline">
+                  <a target="_blank"  href="https://drive.google.com/file/d/1aJLQRcpMFD2xu9TnM5v267hTL1H95vB7/view?usp=sharing"  className="btn btn-outline">
                     Download resume
                   </a>
                   {/* <Link target="_blank" to={Resume} download="ResumeofSabbirAhmed.PDF">
