@@ -83,27 +83,27 @@ export default function VerticalTabs() {
               <Tab label="Octagon Ltd" {...a11yProps(1)} />
               <Tab label="Grameen Phone Ltd" {...a11yProps(2)} />
               <Tab label="Huawei Technologies" {...a11yProps(3)} />
-              <Tab label="Item Five" {...a11yProps(4)} />
+              
               
             </Tabs>
             <TabPanel value={value} index={0}>
               <h3>Full Stack Web Developer</h3>
                   <p className="exp-detail"><small>August 2018 to present</small></p>
                   <ul>
-                      <li>Analyzed user requirement reports to design web applications to meet customer needs, as well as all legal and budgetary restrictions.</li>
-                      <li>Worked in both HTML and CSS environments, choosing each protocol, where appropriate, for best results.</li>
-                      <li>Developed web apps using pre-made user interface frameworks such as Bootstrap, Material UI.</li>
                       <li>Planned website development, converting mockups into usable web presence with HTML, JavaScript, React Js and JSON coding.</li>
+                      <li>Worked in both HTML and CSS environments, choosing each protocol, where appropriate, for best results.</li>
+                      <li>Pulled from Node Js, MongoDB, JavaScript and other back-end library knowledge to bolster programming resources.</li>
+                      <li>Verified all web-based products fulfilled prescribed project needs through direct interaction with stakeholders.</li>
                   </ul>
             </TabPanel>
             <TabPanel value={value} index={1}>
               <h3>Consultant <small>(voluntary position)</small></h3>
                   <p className="exp-detail"><small>August 2016 to August 2018</small></p>
                   <ul>
-                      <li>Advised on design, planning and implementation of IT solution, New Product projects</li>
-                      <li>Worked in both HTML and CSS environments, choosing each protocol, where appropriate, for best results.</li>
-                      <li>Developed web apps using pre-made user interface frameworks such as Bootstrap, Material UI.</li>
-                      <li>Planned website development, converting mockups into usable web presence with HTML, JavaScript, React Js and JSON coding.</li>
+                      <li>Advised on design, planning and implementation of IT solution, New Product projects.</li>
+                      <li>Researched latest market trends to provide current knowledge to clients.</li>
+                      <li>Monitored project activities and verified team members adhered to project's budget and business standards and regulations.</li>
+                      
                   </ul>
             </TabPanel>
             <TabPanel value={value} index={2}>
@@ -120,15 +120,13 @@ export default function VerticalTabs() {
               <h3>Optical Support Enineer</h3>
                 <p className="exp-detail"><small>January 2006 to October 2007</small></p>
                 <ul>
-                  <li>Analyzed user requirement reports to design web applications to meet customer needs, as well as all legal and budgetary restrictions.</li>
-                  <li>Worked in both HTML and CSS environments, choosing each protocol, where appropriate, for best results.</li>
-                  <li>Developed web apps using pre-made user interface frameworks such as Bootstrap, Material UI.</li>
-                  <li>Planned website development, converting mockups into usable web presence with HTML, JavaScript, React Js and JSON coding.</li>
+                  <li>Implemented operation & maintenance solution in-time and effectively to fulfill customers' requirement and solve technical issue.</li>
+                  <li>Constructed and maintain up-to-date network information to ensure accurate and sufficient database for maintenance & troubleshooting.</li>
+                  <li>Performed 2nd level technical support for Manage services Department.</li>
+                  
                 </ul>
             </TabPanel>
-            <TabPanel value={value} index={4}>
-              Item Five
-            </TabPanel>
+            
      
     </div>
       </div>

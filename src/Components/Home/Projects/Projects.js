@@ -13,6 +13,8 @@ import {
     FaExternalLinkSquareAlt, FaGithub,
 } from "react-icons/fa";
 
+
+
 const Projects = () => {
 
     window.scrollTo(0, 0);
@@ -184,6 +186,7 @@ const Projects = () => {
                 
             </div>
         </div>
+        
     </div>
     );
 };

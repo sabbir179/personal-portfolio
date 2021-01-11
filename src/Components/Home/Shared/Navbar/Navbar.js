@@ -17,7 +17,7 @@ const Navbar = () => {
           {state ? (
             <ul className="navbar__right">
               <li>
-                {/* <a href="">Home</a> */}
+                
                 <NavLink className="nav-link" to="/">Home</NavLink>
               </li>
               <li>
@@ -45,9 +45,9 @@ const Navbar = () => {
           )}
         </div>
       </div>
-      {/* <div className="toggle" onClick={() => setState(!state)}>
+      <div className="toggle" onClick={() => setState(!state)}>
         <FaAlignJustify />
-      </div> */}
+      </div>
     </nav>
     );
 };

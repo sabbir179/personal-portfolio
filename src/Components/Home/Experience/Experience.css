@@ -30,10 +30,12 @@
   .exp-detail{
       margin-top: 20px;
       margin-bottom: 20px;
+      padding-bottom: 30px;
   }
 
   #tabs{
       background-color: #1f2235;
       color: #fff;
       margin-left: 90px;
+      margin-bottom: 70px;
   }

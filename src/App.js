@@ -8,10 +8,12 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/Home/Home';
 import Projects from './Components/Home/Projects/Projects';
-import ContactMe from './Components/ContactMe/ContactMe';
+import Contact from './Components/Home/Contact/Contact';
 import NotFound from './Components/NotFound/NotFound';
 import Nav from './Components/Home/Shared/Navbar/Navbar';
 import Experince from './Components/Home/Experience/Experience';
+import Footer from './Components/Home/Footer/Footer';
+
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
           </Route> */}
           <Route path="/projects">
             <Projects />
-            
+            <Footer/>
           </Route>
           {/* <Route path="/about">
             <About />
@@ -36,14 +38,16 @@ function App() {
           <Route path="/experience">
             <Nav />
             <Experince />
+            <Footer/>
           </Route>
           <Route path="/contact">
             <Nav/>
-            <ContactMe />
-            {/* <Footer/> */}
+            <Contact />
+            <Footer/>
           </Route>
           <Route path="*">
             <NotFound />
+            <Footer/>
           </Route>
         </Switch>
       </Router>

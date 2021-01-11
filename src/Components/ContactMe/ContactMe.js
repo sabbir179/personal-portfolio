@@ -1,5 +1,7 @@
 import React, { useEffect} from 'react';
-import emailjs from 'emailjs-com';
+import emailjs, { init } from 'emailjs-com';
+
+// init("user_7Vz37KbNgD34w8l5gHuKC");
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 

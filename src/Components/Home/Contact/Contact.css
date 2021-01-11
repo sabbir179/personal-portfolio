@@ -52,3 +52,44 @@
   .contactCircles li:hover {
     background: #ff4a57;
   }
+
+  .address {
+      display: flex;
+      width: 350px;
+      height: auto;
+      background: #23263A;
+      padding: 20px;
+      margin: 20px;
+  }
+
+  #address-loc{
+      padding-left: 10px;
+  }
+  .address-phone{
+    display: flex;
+    width: 350px;
+    height: auto;
+    background: #23263A;
+    padding: 20px;
+    margin: 20px;
+}
+
+.address-text{
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.address-email{
+    display: flex;
+    width: 350px;
+    height: auto;
+    background: #23263A;
+    padding: 20px;
+    margin: 20px;
+}
+
+.icons{
+    color: #FF4A57;
+    font-size: 28px;
+}
