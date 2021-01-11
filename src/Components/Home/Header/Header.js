@@ -37,9 +37,9 @@ const Header = () => {
             <div className="header__content">
               <div className="header__section">
                 <ul className="header__ul">
-                  <li>
+                  {/* <li>
                     <FaFacebookF className="headerIcon" />
-                  </li>
+                  </li> */}
                   <li>
                      <a target="_blank"  href="https://www.linkedin.com/in/sabbir-ahmed-623b609/"> <FaLinkedinIn className="headerIcon" /></a>
                   </li>
